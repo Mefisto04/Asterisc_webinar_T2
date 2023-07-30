@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #17093d;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  header {
+    background-color: #000000;
+    padding: 60px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1, h2, h3 {
+    background-color: #17093d;
+    color: #ffffff;
+  }
+  
+  #registration {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #17093d;
+    color: #ffffff;
+  }
+  
+  form input {
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #a3b706;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .limited-seats {
+    margin-top: 10px;
+    color: #f9a826;
+    font-weight: bold;
+  }
+  
+  #details {
+    padding: 60px;
+    background-color: #17093d;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #agenda {
+    text-align: center;
+    padding: 60px;
+    background-color: #17093d;
+    color: #ffffff;
+  }
+  
+  #agenda ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #17093d;
+    color: #ffffff;
+  }
+  
+  #agenda li {
+    margin-bottom: 40px;
+    background-color: #17093d;
+    color: #ffffff;
+  }
+  
+  #speakers {
+    padding: 60px;
+    background-color: #17093d;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .speaker {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .speaker img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  #confirmation {
+    text-align: center;
+    padding: 60px;
+    background-color: #17093d;
+    color: #ffffff;
+  }
+  
+  #thankyou {
+    text-align: center;
+    padding: 60px;
+    background-color: #17093d;
+    color: #ffffff;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .confirmation-content, .thankyou-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .social-share {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .share-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .share-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #1f4e79;
+    
+    border-radius: 50%;
+    
+  }
+  
+  .share-buttons a:hover {
+    background-color: #f9a826;
+  }
+  
+  .share-buttons i {
+    font-size: 18px;
+  }
+  /* Styling for Share with Friends Section - Add your own styles as needed */
+.share-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.social-buttons button, .email-share button, .referral-link button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color:rosybrown;
+ 
+  border: none;
+  cursor: pointer;
+}
+
+.referral-link input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.referral-progress {
+  margin-top: 20px;
+}
+
+  
